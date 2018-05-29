@@ -3,6 +3,10 @@ bin-debug/
 bin-release/
 [Oo]bj/
 [Bb]in/
+library/
+temp/
+settings/
+local/
 
 # Other files and folders
 .settings/
