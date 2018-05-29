@@ -31,10 +31,9 @@ cc.Class({
         var action2 = cc.callFunc(() => {
             this.Obj.player._player.walk();
         })
-        
+        this.Obj.sticklen = this.node.height;
         var seq = cc.sequence(action, action1, action2);
         this.node.runAction(seq);
-        this.Obj.sticklen = this.node.height;
     },
 
     stopWalk: function () {
